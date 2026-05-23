@@ -1,0 +1,21 @@
+---
+title: "Open vs. Free"
+format: html
+---
+
+
+A common misconception is that “free” materials are equivalent to “open” ones.
+
+**Free resources** may cost nothing to access but typically cannot be adapted, redistributed, or remixed.
+
+**Open resources** include explicit permissions that allow reuse, revision, adaptation, and redistribution.
+
+### Creative Commons and OER
+
+{{< meta glossary.CC >}} licensing provides a clear, standardised way to communicate how others may use educational content. Licences such as CC BY explicitly permit reuse and remixing, while “No Derivatives” licences (e.g., CC BY ND) limit reuse potential .
+
+::: callout
+In essence: A resource is only an OER if its licence explicitly permits adaptation.
+:::
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](Intro-why%20OERs%20matter.html)

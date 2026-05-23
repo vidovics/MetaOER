@@ -1,0 +1,16 @@
+---
+title: "Publishing Quarto OERs"
+format: html
+---
+
+Options include:
+
+-   GitHub Pages for free public hosting;
+
+-   Quarto Pub for simple deployment;
+
+-   Institutional repositories, including rendered output and source (.qmd and supporting files);
+
+-   Packaging OERs for more advanced reuse.
+
+[![](images/clipboard-3722003544.png){fig-align="center" width="50"}](/index.html)

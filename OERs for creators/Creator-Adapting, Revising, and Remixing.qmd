@@ -1,0 +1,17 @@
+---
+title: "Adapting, Revising, and Remixing"
+format: html
+---
+
+Adaptation examples include:
+
+-   translating content;
+-   updating outdated statistics;
+-   adding examples relevant to local context;
+-   integrating multimedia or interactive components.
+
+When remixed with other OERs, check licence compatibility — particularly CC BY 'SA' and 'ND' conditions and combinations.
+
+Maintain attribution and any required notices of change.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Ethics%20of%20Reuse.html)

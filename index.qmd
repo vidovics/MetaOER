@@ -1,0 +1,37 @@
+---
+title: "Open Educational Resources: Accessible, transparent, and reusable learning objects"
+format: html
+---
+
+
+
+|  |  |  |  |
+|------------------|------------------|------------------|------------------|
+| [![](images/clipboard-972878262.png)](Introduction%20to%20OERs/intro-Learning%20Outcomes.html) | [![](images/clipboard-2783689849.png)](OERs%20for%20users/User-learning%20outcomes.html) | [![](images/clipboard-3520176154.png)](OERs%20for%20creators/Creator-learning%20outcomes.html) | [![](images/clipboard-560624670.png)](Modular%20OERs/Modular-learning%20outcomes.html) |
+| Introduction to OERs | OERs for Users | OERs for Creators | Advanced: Modular OERs Using R and Quarto |
+
+### Audience
+
+This programme is designed for:
+
+-   Educators, instructional designers, and learning technologists
+
+-   Library and research support staff
+
+-   Students and lifelong learners
+
+-   Anyone wishing to create, adapt, reuse, or understand Open Educational Resources (OERs)
+
+### Programme-wide Learning Outcomes
+
+By the end of all four units, learners will be able to:
+
+-   Define OERs and their attributes using internationally recognised definitions (UNESCO, Creative Commons).
+
+-   Navigate, evaluate, and reuse OERs appropriately.
+
+-   Create OERs that apply the {{< meta glossary.fiveRs >}}, {{< meta glossary.FAIR >}}, and good licensing practice.
+
+-   Produce reusable and computationally reproducible OERs using </abbr>, {{< meta glossary.R >}} with {{< meta glossary.Quarto >}}, including structuring source files, managing local terminology, and enabling remixing.
+
+-   Share OERs in accessible, editable, future proof formats with transparent licensing and version control.

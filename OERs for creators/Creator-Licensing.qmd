@@ -1,0 +1,14 @@
+---
+title: "Why licensing is not enough"
+format: html
+---
+
+A CC BY licence on its own does not guarantee practical usability. Effective OERs must also include:
+
+-   editable files;
+-   source code or raw media;
+-   modular structure;
+-   accessibility features; and
+-   context free design (<abbr class="uos-Amethyst"  title="The advanced module in this training programme gives an example of how to index keywords and links to allow future authors to rapidly edit an OER.">avoiding hard-coded references</abbr>).
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Design.html)

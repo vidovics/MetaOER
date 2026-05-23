@@ -1,0 +1,100 @@
+---
+title: "Indexes"
+format: html
+---
+
+Managing other indexes in the same way as a BibTeX file can be very helpful. Using indexed lists makes OERs easier to **adapt, maintain, and version** across different contexts. Some use cases include:
+
+-   Managing abbreviations (e.g. <abbr> elements) or other heavily reused snippets without rewriting them each time.
+-   Managing commonly used terms that you or others reusing the OER may wish to adapt across the whole resource.
+-   Managing locally specific content that may need updating or replacing in different contexts.
+
+There are several ways to create reusable lists, but some approaches (such as using R or other runtime methods) can interfere with Quarto’s rendering process. In particular, they may cause .qmd files to be processed as .md or .rmarkdown, which can affect features that rely on Quarto’s full project structure. For example, this may break BibTeX citation handling. A robust approach is to define reusable content in a standalone YAML file (separate from the document header), and use Quarto’s metadata system to reference this content throughout your project.
+
+## Example:
+
+### Setting up
+
+#### \_quarto.yml
+
+You need to set up the `_quarto.yml` to direct your Quarto files to the metadata you are sharing. In this example, indexes.yml will be created to contain all of our reusable lists, so we need to tell each Quarto file that this will be a source of metadata throughout the project.
+
+```{r eval=FALSE}
+metadata-files:
+  - indexes.yml
+```
+
+### Abbreviations
+
+#### indexes.yml
+
+Populate your lists with structured metadata. In this example, we have included the abbreviation for MERLOT.
+
+```{r eval=FALSE}
+glossary:
+  MERLOT: '<abbr title="Multimedia Educational Resources for Learning and Online Teaching.">MERLOT</abbr>'
+```
+
+#### In your .qmd file
+
+You can now reuse the metadata stored in `indexes.yml` like in the example below.
+
+```{r eval=FALSE}
+The repository {{< meta glossary.MERLOT >}} was one of the earliest OER platforms.
+```
+
+#### Output
+
+::: callout
+The repository {{< meta glossary.MERLOT >}} was one of the earliest OER platforms.
+:::
+
+### Indexed terms
+
+We can do the same with indexed terms. Here, we are adding them to the same YAML file, but you can create another using the same processes.
+
+#### indexes.yml
+
+```{r eval=FALSE}
+
+indexed_terms:
+  organisation: "University of Southampton"
+
+```
+
+#### In your .qmd file
+
+```{r eval=FALSE}
+This OER was developed at {{< meta indexed_terms.organisation >}}.
+```
+
+#### Output
+
+::: callout
+This OER was developed at {{< meta indexed_terms.organisation >}}.
+:::
+
+### Indexed links
+
+#### indexes.yml
+
+```{r eval=FALSE}
+
+indexed_links:
+  research_services: '<a href="https://library.soton.ac.uk/research">Research Services</a>'
+  
+```
+
+#### In your .qmd file
+
+```{r eval=FALSE}
+See {{< meta indexed_links.research_services >}} for more support.
+```
+
+#### Output
+
+::: callout
+See {{< meta indexed_links.research_services >}} for more support.
+:::
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-managing%20assets.html)

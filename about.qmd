@@ -1,0 +1,41 @@
+---
+title: "About"
+format: html
+nocite: |
+  @*
+
+---
+
+### Cite this work
+
+Cite this resource as:
+
+Sands, P. and Vidovic, S. (2026) *Open Educational Resources: Accessible, transparent and reusable learning objects*. Available at: <https://unisotonlibrary.github.io/> .
+
+``` {.bib}
+@online{sands_vidovic_2026,
+  author = {Sands, P. and Vidovic, S.},
+  title = {Open Educational Resources: Accessible, transparent and reusable learning objects},
+  year = {2026},
+  url = {https://unisotonlibrary.github.io/},
+  note = {Accessed: 2026}
+}
+```
+
+### About this site
+
+This programme has been created to collect together Open Educational Resources (OERs) which aim to educate potential users and creators of OERs about what they are and how to find them, use them, reuse them, and create them. The programme is modular and can be used to meet the user's needs. Of course, this is an OER, so it may be remixed and reused to suit your needs.
+
+### Acknowledgements
+
+Thank you to the following supporters of this project for their contributions:
+
+Suzanne Tatham, Deputy Director, Library and Learning Services, University of Southampton.
+
+### Statement on AI
+
+Generative AI was used in this project for refining drafts and generating examples, as well as debugging and troubleshooting code. The authors have fully understood and reused the material generated using AI with full accountability.
+
+## References
+:::{#refs}
+:::

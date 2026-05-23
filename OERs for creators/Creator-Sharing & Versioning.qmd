@@ -1,0 +1,34 @@
+---
+title: "Sharing & Versioning"
+format: html
+---
+
+To ensure your OER lives beyond your immediate project:
+
+### Share
+
+-   Institutional repositories.
+
+-   GitHub Pages.
+
+-   OER Commons.
+
+### Provide clear attribution information
+
+Include:
+
+-   title;
+-   authors;
+-   licence;
+-   version;
+-   date created/updated.
+
+### Use version control
+
+Tools like GitHub facilitate:
+
+-   transparent updates;
+-   change logs;
+-   issues and contributions.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Adapting,%20Revising,%20and%20Remixing.html)

@@ -1,0 +1,47 @@
+---
+title: "Designing OERs for Reuse"
+format: html
+---
+
+To enable meaningful reuse:
+
+### Use editable, non-proprietary formats
+
+Prefer:
+
+{{< meta glossary.docx >}}, {{< meta glossary.md >}}, {{< meta glossary.qmd >}}, {{< meta glossary.html >}}.
+
+Avoid:
+
+locked PDFs or proprietary formats without export options.
+
+### Include source files
+
+Provide:
+
+-   raw images;
+-   scripts;
+-   datasets; and/or
+-   slide decks in editable formats.
+
+### Ensure accessibility
+
+Best practice includes:
+
+-   alternative "Alt" text;
+-   clear headings;
+-   colour-contrast compliance;
+-   readable fonts and spacing.
+
+There are some useful tips in the Una Europa’s Creating OERS how to guide in the section 1A. Make your resource as accessible as possible at https://www.una-europa.eu/knowledge-hub/toolkits/oer/creating-oers-how-to-guide [@RN68108].
+
+### Avoid local hard-coding
+
+Where possible, facilitate future users to swap out:
+
+-   institutional names;
+-   roles;
+-   signposting/web links;
+-   context specific examples and case studies.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Copyright.html)

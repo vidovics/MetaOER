@@ -1,0 +1,29 @@
+project:
+  type: website
+
+
+metadata-files:
+  - indexes.yml
+
+
+bibliography: References.bib
+
+website:
+  title: "OER"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+    css: styles.css
+    toc: true
+    citeproc: true
+
+editor: visual
+

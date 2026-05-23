@@ -1,0 +1,74 @@
+---
+title: "Sandpit"
+format: html
+---
+
+### Exercise
+
+Change the correct answer from **B** to **A**, then test the quiz.
+
+
+#### Task:
+
+Click run to display the results of the html and javascript. Test it. Edit the correct answer in the html, run it, and test it again.</p>
+
+::: {style="display: flex; gap: 20px;"}
+```{=html}
+<textarea id="editor" style="width: 50%; height: 320px;">
+<form id="quiz">
+
+<p><strong>1) Ask a question here</strong><br>
+<label><input type="radio" name="q1" value="A"> A) Option 1</label><br>
+<label><input type="radio" name="q1" value="B" data-correct="true"> B) Option 2</label><br>
+<label><input type="radio" name="q1" value="C"> C) Option 3</label></p>
+
+<p><button type="submit">✔️ Submit</button></p>
+
+</form>
+
+<div id="result" style="font-weight: bold; margin-top: 1em;"></div>
+
+<script>
+document.getElementById("quiz").addEventListener("submit", function(e) {
+  e.preventDefault();
+
+  const correct = document.querySelectorAll('input[data-correct="true"]:checked').length;
+  const total = 1;
+
+  const result = document.getElementById("result");
+
+  let message = `You scored ${correct}/${total}. `;
+
+  if (correct === total) {
+    message += "Excellent!";
+  } else {
+    message += "Try again.";
+  }
+
+  result.textContent = message;
+});
+</script>
+  </textarea>
+```
+
+<iframe id="preview" style="width: 50%; height: 320px; border: 1px solid #ccc;"></iframe>
+:::
+
+<p>
+
+<button onclick="runCode()">
+ Run 
+</button>
+
+</p>
+
+```{=html}
+<script>
+function runCode() {
+  const code = document.getElementById("editor").value;
+  document.getElementById("preview").srcdoc = code;
+}
+</script>
+```
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Publishing.html)

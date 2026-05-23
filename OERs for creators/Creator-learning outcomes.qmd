@@ -1,0 +1,18 @@
+---
+title: "OERs for Creators"
+format: html
+---
+
+### Learning outcomes
+
+By the end of this unit, learners will be able to:
+
+-   Apply the {{< meta glossary.fiveRs >}} to ensure reusability.
+
+-   Apply {{< meta glossary.FAIR >}} when designing educational resources.
+
+-   Select and use appropriate open licences.
+
+-   Structure and share OERs for maximum longevity and adaptability.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Why%20OERs%20Matter.html)

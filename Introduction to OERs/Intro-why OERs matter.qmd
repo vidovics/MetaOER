@@ -1,0 +1,8 @@
+---
+title: "Why OERs Matter"
+format: html
+---
+
+OERs support a global movement centred on **equity**, **inclusion**, and educational **accessibility**. They remove cost barriers for learners, empower educators to **adapt** materials to local contexts, and promote **diverse representation** in teaching materials. OERs also encourage innovative {{< meta glossary.Pedagogy >}} by enabling multimedia, interactive, and platform-independent approaches. There is a lot of movement in the Open Educational Resources arena, for a variety of reasons, including the cost of textbooks [@RN65110].
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](Intro-brief%20history.html)

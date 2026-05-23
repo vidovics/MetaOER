@@ -1,0 +1,73 @@
+---
+title: "Quiz"
+format: html
+---
+
+<form id="quiz">
+
+<!-- Q1 -->
+
+<p>
+
+<strong>1) Which of the following is the most appropriate use of alternative text (alt text) for an educational image?</strong><br> <label><input type="radio" name="q1" value="A" data-correct="true"> A) A short explanation conveying the image’s purpose or meaning in context </label><br> <label><input type="radio" name="q1" value="B"> B) A word for word description of every visual detail in the image</label><br> <label><input type="radio" name="q1" value="C"> C) Leaving the alt text blank for all decorative and nondecorative images</label><br> <label><input type="radio" name="q1" value="D"> D) A long paragraph describing the image, even if the image is purely decorative`</la`{=html}
+
+<!-- Q2 -->
+
+<p><strong>2) Which file format choice is most appropriate for ensuring an Open Educational Resource (OER) is accessible to the widest range of users?</strong><br> <label><input type="radio" name="q2" value="A"> A) Providing only a PDF version of the resource, as PDFs are universally accessible</label><br> <label><input type="radio" name="q2" value="B" data-correct="true"> B) Sharing materials in open, editable formats (e.g., HTML or DOCX) alongside a tagged, accessible PDF</label><br> <label><input type="radio" name="q2" value="C"> C) Using image only PDFs because they display consistently on all devices</label><br> <label><input type="radio" name="q2" value="D"> D) Sharing resources only in proprietary formats because they preserve design features</label></p>
+
+<!-- Q3 -->
+
+<p><strong>3) Which of the following is an example of a non proprietary file format commonly recommended for sharing Open Educational Resources (OERs)?</strong><br> <label><input type="radio" name="q3" value="A"> A) .docx</label><br> <label><input type="radio" name="q3" value="B"> B) .pptx</label><br> <label><input type="radio" name="q3" value="C" data-correct="true"> C) .qmd</label><br> <label><input type="radio" name="q3" value="D"> D) .psd</label></p>
+
+<!-- Q4 -->
+
+<p><strong>4) Which of the following is the most important ethical consideration when *repurposing* an Open Educational Resource (OER)?</strong><br> <label><input type="radio" name="q4" value="A"> A) Ensuring the adapted resource looks completely different from the original</label><br> <label><input type="radio" name="q4" value="B" data-correct="true"> B) Making sure the original creator is properly credited and the context of their work is respected</label><br> <label><input type="radio" name="q4" value="C"> C) Avoiding the use of images, even if they are openly licensed</label><br> <label><input type="radio" name="q4" value="D"> D) Releasing the adapted version only to your own institution</label></p>
+
+<!-- Hyperlinked controls -->
+
+<p><a href="#" id="submit-link">✔️ Submit</a>  </p>
+
+</form>
+
+<!-- Result area -->
+
+::: {#result style="font-weight: bold; margin-top: 1em;"}
+:::
+
+```{=html}
+<script>
+document.getElementById("submit-link").addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const form = document.getElementById("quiz");
+  const correct = form.querySelectorAll('input[data-correct="true"]:checked').length;
+  const total = 4;
+
+  const result = document.getElementById("result");
+  const indexLink = document.getElementById("index-link");
+  const backLink = document.getElementById("back-link");
+
+  let message = `You scored ${correct}/${total}. `;
+
+  if (correct >= 2) {
+    message += "Well done!";
+    indexLink.style.display = "block";
+    backLink.style.display = "none";
+  } else {
+    message += "You might want to go back and look at sections of the Introduction to OERs unit.";
+    indexLink.style.display = "none";
+    backLink.style.display = "block";
+  }
+
+  result.textContent = message;
+});
+</script>
+```
+
+::: {#index-link style="display: none; margin-top: 1.5em; text-align: center;"}
+<a href="/index.html"> <img src="images/clipboard-3722003544.png" alt="Return to programme home page" width="50"/> </a>
+:::
+
+::: {#back-link style="display: none; margin-top: 1.5em; text-align: center;"}
+<a href="/OERs for creators/Creator-learning outcomes.html"> <img src="images/clipboard-372805318.png" alt="Return to the beginning of the unit" width="50"/> </a>
+:::

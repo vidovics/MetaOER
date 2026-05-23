@@ -1,0 +1,160 @@
+---
+title: "Building Tests"
+format: html
+---
+
+## End-of-unit quizzes
+
+Quizzes can help to reinforce learning and identify weaknesses for the learner to build upon. This OER uses a simple interactive quiz built using HTML and JavaScript. You can adapt this structure to create your own assessments.
+
+## Example: end-of-unit quiz
+
+The following elements work together to make a quiz interactive:
+
+-   Each question uses a name attribute (e.g. `name="q1"`, `name="q2"`) to group answer options.
+
+-   The correct answer for each group is marked using a custom attribute: `data-correct="true"`.
+
+-   When the learner clicks **Submit**, the script checks which answers have been selected and it counts how many inputs have the attribute `data-correct="true"`.
+
+-   The total score is calculated and used to generate feedback.
+
+-   Feedback is displayed in the results container on the page. This is the area where the score and message appear after submission.
+
+### Questions
+
+```{r, eval=FALSE}
+
+## Quiz
+
+<form id="quiz">
+
+<!-- Q1 -->
+<p><strong>1) What does OER stand for?</strong><br>
+<label><input type="radio" name="q1" value="A"> A) Open Educational Research</label><br>
+<label><input type="radio" name="q1" value="B" data-correct="true"> B) Open Educational Resource</label><br>
+<label><input type="radio" name="q1" value="C"> C) Online Education Resource</label></p>
+
+<!-- Q2 -->
+<p><strong>2) Which licence allows reuse and adaptation?</strong><br>
+<label><input type="radio" name="q2" value="A"> A) CC BY ND</label><br>
+<label><input type="radio" name="q2" value="B" data-correct="true"> B) CC BY</label><br>
+<label><input type="radio" name="q2" value="C"> C) CC BY NC</label></p>
+
+<!-- Submit button -->
+<p><a href="#" id="submit-link">✔️ Submit</a></p>
+
+</form>
+
+```
+
+::: callout
+## Working example questions
+
+<form id="quiz">
+
+<!-- Q1 -->
+
+<p><strong>1) What does OER stand for?</strong><br> <label><input type="radio" name="q1" value="A"> A) Open Educational Research</label><br> <label><input type="radio" name="q1" value="B" data-correct="true"> B) Open Educational Resource</label><br> <label><input type="radio" name="q1" value="C"> C) Online Education Resource</label></p>
+
+<!-- Q2 -->
+
+<p><strong>2) Which licence allows reuse and adaptation?</strong><br> <label><input type="radio" name="q2" value="A"> A) CC BY ND</label><br> <label><input type="radio" name="q2" value="B" data-correct="true"> B) CC BY</label><br> <label><input type="radio" name="q2" value="C"> C) CC BY NC</label></p>
+
+<!-- Submit button -->
+
+<p><a href="#" id="submit-link">✔️ Submit</a></p>
+
+</form>
+:::
+
+### Container
+
+The following creates a container where quiz results will be inserted dynamically after they are calculated.
+
+```{r, eval=FALSE}
+---
+
+## Result
+
+::: {#result style="font-weight: bold; margin-top: 1em;"}
+:::
+
+---
+```
+
+:::: callout
+## Example dynamic results
+
+::: {#result style="font-weight: bold; margin-top: 1em;"}
+:::
+::::
+
+### Javascript
+
+This section uses JavaScript to:
+
+-   Detect when the user clicks **Submit**;
+-   Count how many correct answers have been selected;
+-   Calculate a score;
+-   Display feedback in the results container.
+
+```{r, eval=FALSE}
+## Quiz Logic
+
+<script>
+document.getElementById("submit-link").addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const form = document.getElementById("quiz");
+
+  // Count correct answers
+  const correct = form.querySelectorAll('input[data-correct="true"]:checked').length;
+  const total = 2;
+
+  const result = document.getElementById("result");
+
+  let message = `You scored ${correct}/${total}. `;
+
+  if (correct === total) {
+    message += "Excellent!";
+  } else if (correct >= 1) {
+    message += "Good effort — review and try again.";
+  } else {
+    message += "You may want to revisit the material.";
+  }
+
+  result.textContent = message;
+});
+</script>
+```
+
+```{=html}
+<script>
+document.getElementById("submit-link").addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const form = document.getElementById("quiz");
+
+  // Count correct answers
+  const correct = form.querySelectorAll('input[data-correct="true"]:checked').length;
+  const total = 2;
+
+  const result = document.getElementById("result");
+
+  let message = `You scored ${correct}/${total}. `;
+
+  if (correct === total) {
+    message += "Excellent!";
+  } else if (correct >= 1) {
+    message += "Good effort — review and try again.";
+  } else {
+    message += "You may want to revisit the material.";
+  }
+
+  result.textContent = message;
+});
+</script>
+```
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Sandpit.html)

@@ -1,0 +1,15 @@
+---
+title: "Citing and Attribution"
+format: html
+---
+
+For citing and properly attributing OERs you are referencing, use the TASL method:
+
+-   **T**itle
+-   **A**uthor
+-   **S**ource (link)
+-   **L**icence
+
+Example: “Title of Resource” by Author (Year), Source URL, licensed under CC BY 4.0.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20users/User-quiz.html)

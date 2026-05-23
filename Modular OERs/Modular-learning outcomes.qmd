@@ -1,0 +1,20 @@
+---
+title: "Modular OER Method"
+format: html
+---
+
+### Learning outcomes
+
+By the end of this unit, learners will be able to:
+
+-   Create Quarto documents that integrate narrative, code, and data.
+
+-   Understand the principles of using RStudio’s Visual and Source editors effectively.
+
+-   Implement computational reproducibility in OERs.
+
+-   Create indexed lists for terminology and hyperlinks to support localisation.
+
+-   Publish modular, remixable OERs online.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Why%20Quarto.html)

@@ -1,0 +1,24 @@
+---
+title: "Discovering OERs"
+format: html
+---
+
+Common places to locate OERs include:
+
+-   [OER Commons](https://oercommons.org/)
+
+-   [MERLOT](https://www.merlot.org/merlot/index.htm)
+
+-   [Open Textbook Library](https://open.umn.edu/opentextbooks)
+
+-   [Institutional repositories](https://opendoar.ac.uk/)
+
+-   [GitHub](https://github.com/) and GitHub Pages outputs
+
+-   Specialised discipline repositories
+
+-   [Wikipedia](https://www.wikipedia.org/)
+
+Search tools often include filters for licence type, accessibility, and media format.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20users/User-Evaluating%20OERs.html)

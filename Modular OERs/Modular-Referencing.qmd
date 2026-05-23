@@ -1,0 +1,104 @@
+---
+title: "Referencing"
+format: html
+---
+
+One of the ways you can meet the principle of reproducibility and reusability is by managing your references in a directory. Most reference management software, including open source solutions, provide BibTeX export. Quarto can natively handle BibTex across a project.
+
+Not only does using BibTeX save time and help with editing across the document in the future, but there can be immediate benefits because rather than having to write out the whole reference every time you use it, you can use a reference tag instead.
+
+## Example:
+
+### Configuration
+
+#### \_quarto.yml
+
+You need to configure your `_quarto.yml`, so that the BibTeX can be used across your entire project. Add `bibliography: <filename>.bib` to the top level of your YAML, and place the corresponding file in the top level of your project directory.
+
+```{r eval=FALSE}
+
+project:
+  type: website
+
+bibliography: References.bib
+
+format:
+  html:
+    theme: cosmo
+    toc: true
+
+```
+
+#### Sample BibTeX
+
+```{r eval=FALSE}
+
+@online{RN68111,
+  author = {{UNESCO}},
+  title = {Recommendation on Open Educational Resources (OER)},
+  year = {2019},
+  url = {https://unesdoc.unesco.org/ark:/48223/pf0000370936}
+}
+
+@online{RN70202,
+  author = {Falldin, Maria and Lauristen, Karen},
+  title = {Authoring Open Textbooks},
+  year = {2017},
+  url = {https://pressbooks.pub/authoropen/}
+}
+
+```
+
+#### In your .qmd file
+
+You can include references in parentheses or in-line with text.
+
+```{r eval=FALSE}
+Open Educational Resources are defined by UNESCO [@RN68111].
+
+For further reading, see @RN70202.
+```
+
+#### Output
+
+::: callout
+Open Educational Resources are defined by UNESCO [@RN68111].
+
+For further reading, see @RN70202.
+:::
+
+### Other citation examples
+#### In-line code
+``` {r eval=FALSE}
+OER practices have been explored widely [@RN68111; @RN70202]. #Cite multiple sources
+
+UNESCO [-@RN68111]. #Suppress the authors
+
+The definition is formally stated [@RN68111, p. 2]. #Reference the location
+
+Some argue OER improves equity significantly [@RN68111; see also @RN70202]. #Add context and commentary
+```
+#### Output
+::: callout
+OER practices have been explored widely [@RN68111; @RN70202].\
+\
+UNESCO [-@RN68111].\
+\
+The definition is formally stated [@RN68111, p. 2].\
+\
+Some argue OER improves equity significantly [@RN68111; see also @RN70202].\
+:::
+
+#### Reference list
+A reference list will automatically generate at the foot of a page, or where you prompt it using `## References`. If you put the command shared below in your YAML header, a full reference list from your BibTeX will be generated. Or, if you want to force specific uncited references in the reference list, replace `@*` with a list of reference tags e.g.`@RN70202`.
+
+``` {r eval=FALSE}
+---
+title: "<title>"
+format: html
+nocite: |
+  @*
+---
+```
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Indexes.html)

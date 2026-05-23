@@ -1,0 +1,68 @@
+---
+title: "The Qualities of Effective OERs"
+format: html
+---
+
+## The 5Rs
+
+David Wiley’s [@RN70139] 5Rs describes what OER creators should allow with appropriate licensing:
+
+::: {.callout-note collapse="true"}
+## Retain
+
+*Keep a copy*. Consider the digital preservation of the resource: how long will it be need and valid for; will it still be usable later in its lifecycle, or is it dependent on proprietary software; is it stored securely and away from physical harm (data can be destroyed in a local disaster!)?
+:::
+
+::: {.callout-note collapse="true"}
+## Reuse
+
+*Make available for use in different contexts*. To be able to reuse all or parts of a learning resource can minimise wasteful practices and maximise impact of your work. Using modular and extensible approaches to OER creation can help towards this goal.
+:::
+
+::: {.callout-note collapse="true"}
+## Revise
+
+*Modify or adapt*. Ensure the work can be updated or reused in other contexts by considering any barriers to revision and mitigating them.
+:::
+
+::: {.callout-note collapse="true"}
+## Remix
+
+*Combine and modify alongside other materials*. Consider what resources already exist that you can combine with your OER and ensure your output allows others to do the same.
+:::
+
+::: {.callout-note collapse="true"}
+## Redistribute
+
+*Share with others*. Ensure the OER is unambiguously licensed and available in a findable and searchable repository for onward sharing.
+:::
+
+Research colleagues might be more familiar with the FAIR Principles [@RN68106]:
+
+::: {.callout-note collapse="true"}
+## Findable
+
+Using metadata, stable URLs, and repository platforms.
+:::
+
+::: {.callout-note collapse="true"}
+## Accessible
+
+Free to retrieve and provided in formats that support accessibility standards.
+:::
+
+::: {.callout-note collapse="true"}
+## Interoperable
+
+Structured in formats readable across tools and platforms.
+:::
+
+::: {.callout-note collapse="true"}
+## Reusable
+
+Clear licensing and editable source files.
+:::
+
+These principles are best practice and ensure that a learning object is fully open, adaptable, and retrievable.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Licensing.html)

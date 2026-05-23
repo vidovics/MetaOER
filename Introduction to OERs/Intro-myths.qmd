@@ -1,0 +1,73 @@
+---
+title: "Challenges and Misconceptions"
+format: html
+---
+
+### Myths
+
+Despite growing awareness, several barriers remain:
+
+::: {.callout-note collapse="true"}
+## “It’s free, so it must be open.”
+
+Many free resources lack the permissions needed for reuse or adaptation.
+:::
+
+::: {.callout-note collapse="true"}
+## “OERs are low quality because they’re free.”
+
+OER quality varies, just like commercial resources. Many are peer-reviewed, institutionally produced, or grant-funded. Increasingly, OERs are created by leading academics, experts and specialists in their field. Furthermore, they are often transparent about their review processes, sources, and limitations.
+:::
+
+::: {.callout-note collapse="true"}
+## "OERs are only about saving money."
+
+Cost savings are important, but OERs also enable:
+
+- Pedagogical innovation (e.g. open {{< meta glossary.Pedagogy >}});
+- Adaptability and localisation;
+- Equity and inclusion.
+
+They can improve student outcomes when used thoughtfully.
+
+Note, Version 1 of this OER does not replace a textbook or other expense and resulted in staffing costs which have been absorbed by the Open Research & Publication Practice unit of the University of Southampton Library.
+:::
+
+::: {.callout-note collapse="true"}
+## "It takes too much time to use OER."
+
+Initial discovery and adaptation can take time, but over time, OERs can reduce workload because materials are reusable and editable.
+
+**It’s an upfront investment with long-term benefits.**
+:::
+
+
+### Licensing confusion
+
+Educators may struggle to interpret CC licences or may inadvertently restrict reuse through “No-Derivatives” or “Non-Commercial” conditions.
+
+### Hidden barriers
+
+Resources may be technically open but practically unusable if:
+
+-   shared only as PDFs;
+
+-   built in proprietary tools;
+
+-   or lacking editable source files.
+
+### Discoverability
+
+Many OERs are not indexed well in search engines or stored in institutional repositories or library catalogues. There are many decentralised platforms (places) to search for OER books making them difficult for users to find and browse - although, there is work under way to address this. Colleagues at some UK Higher Education institutions are working together to curate an Open Textbook Library UK and Ireland (OTL-UK) that was launched in 2026, their current work can be found on the OER Community of Practice for the UK & Ireland.
+
+::: callout-note
+## Places to search for OER include:
+
+-   UK & Ireland Collection <https://open.umn.edu/opentextbooks/uki>
+-   OER Commons https://oercommons.org/
+-   MERLOT https://www.merlot.org/merlot/index.htm
+-   Brunel Library’s Open Education Resources guide lists good place to search for books https://libguides.brunel.ac.uk/c.php?g=661327&p=4672193
+-   Smart Servier Medical Art has 3000 free medical images https://smart.servier.com/
+:::
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](Intro-quiz.html)

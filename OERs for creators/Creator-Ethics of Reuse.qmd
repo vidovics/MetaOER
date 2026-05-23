@@ -1,0 +1,18 @@
+---
+title: "Ethics of Reuse"
+format: html
+---
+
+Responsible adaptation means:
+
+-   preserving cultural meaning;
+-   respecting author intent;
+-   maintaining evidence quality and proper citation;
+-   Ensuring modifications are transparent.
+
+For further reading please see:
+
+\ @RN70201. Available at: https://pressbooks.pub/oenmodify/;\
+\ @RN70202. Available at: https://pressbooks.pub/authoropen/.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Quiz.html)

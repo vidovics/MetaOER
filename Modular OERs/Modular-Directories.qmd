@@ -1,0 +1,19 @@
+---
+title: "Avoiding hard-coding"
+format: html
+---
+
+The lists from *Managing Local Terminology and Hyperlinks* and other common elements across different {{< meta glossary.qmd >}} files can be shared to avoid hard-coding and to support low effort editing and reuse. To do this, it is necessary to manage a directory structure and to set up your Quarto files with those common elements.
+
+For this OER, we have created an {{< meta glossary.R >}} file called `Indexes.R` which generates the lists we are using. To set up each individual Quarto file we embed the following code into them so we can reuse those elements. The list element can then be referenced in text (as demonstrated previously) and reused throughout the resource.
+
+```{r, eval=FALSE}
+\``` {r, include=FALSE}
+library(here)
+source(here("Indexes.R"))
+```\
+```
+
+Bracket this code in three backticks ```` ``` ```` and use the conditions `{r, include=FALSE}`. Do not include the back-slash.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Useful%20features.html)

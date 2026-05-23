@@ -1,0 +1,83 @@
+---
+title: "Other Useful Features"
+format: html
+---
+
+Quarto has other useful features, or can integrate functions from other packages. In this OER we have used callouts and abbreviations to keep pages clean and to highlight elements or give additional information.
+
+### Callouts
+
+Callouts can be used to highlight or separate blocks of text. Collapsed callouts provide an accordian which can be used to keep pages clean by removing blocks of text from the main page, giving the learner the choice to engage with deeper learning.
+
+Callouts are bracketed by three colons and a callout prompt in parentheses.
+
+#### Example:
+
+##### inline code
+
+```{r, eval= FALSE}
+:::{.callout}
+Your text here
+:::
+```
+
+##### output
+
+::: callout
+Your text here
+:::
+
+In this OER, we have used the callout-note prompt for our collapsed callouts, which gives additional styling to help draw attention to it and using our .css stylesheet, we can keep it on brand.
+
+#### Example:
+
+##### inline code
+
+```{r, eval= FALSE}
+::: {.callout-note collapse= TRUE}
+## Heading
+
+Your text here
+:::
+```
+
+##### output
+
+::: {.callout-note collapse= TRUE}
+## Heading
+
+Your text here 
+:::
+
+### Abbreviations/tooltips
+
+Tooltips can provide more information about a word or topic in a hover-over pop-up box. However, "tooltips" in html are not accessible for screen readers and the abbreviation `abbr` function is much more accessible and usable for this purpose. In this OER the .css stylesheet has been used to make these stand out and stay on brand.
+
+#### Example:
+
+##### inline code
+
+```{r eval=FALSE}
+<abbr class="uos-Amethyst"
+      title="R is a programming language for data analysis. Using RStudio together with the Quarto publishing system is recommended for creating reproducible and extensible OERs.">
+R/Quarto
+</abbr>
+```
+
+##### .css stylesheet
+
+```{r, eval=FALSE}
+.uos-Amethyst {
+  color: #d500a0;             /* uos-Amethyst */
+  text-decoration: underline dotted;
+  cursor: help;
+  font-weight: bold;
+}
+```
+
+##### output
+
+<abbr class="uos-Amethyst"
+      title="R is a programming language for data analysis. Using RStudio together with the Quarto publishing system is recommended for creating reproducible and extensible OERs."> R/Quarto </abbr>
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-reproducibility.html)

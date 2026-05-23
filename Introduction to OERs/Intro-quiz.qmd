@@ -1,0 +1,70 @@
+---
+title: "Check Your Understanding"
+format: html
+toc: false
+---
+
+## Quiz
+
+<form id="quiz">
+
+<!-- Q1 -->
+
+<p><strong>1) Which statement best defines an OER?</strong><br> <label><input type="radio" name="q1" value="A"> A) Free to access but not editable</label><br> <label><input type="radio" name="q1" value="B"> B) Copyrighted material for teaching</label><br> <label><input type="radio" name="q1" value="C"> C) Any online learning material</label><br> <label><input type="radio" name="q1" value="D" data-correct="true"> D) Licensed for reuse and adaptation</label></p>
+
+<!-- Q2 -->
+
+<p><strong>2) Which licence allows adaptation and commercial reuse?</strong><br> <label><input type="radio" name="q2" value="A"> A) CC BY ND</label><br> <label><input type="radio" name="q2" value="B" data-correct="true"> B) CC BY</label><br> <label><input type="radio" name="q2" value="C"> C) CC BY NC</label><br> <label><input type="radio" name="q2" value="D"> D) All CC licences</label></p>
+
+<!-- Q3 -->
+
+<p><strong>3) Which of the following is a hidden barrier to OER reuse?</strong><br> <label><input type="radio" name="q3" value="A" data-correct="true"> A) Sharing materials in proprietary formats</label><br> <label><input type="radio" name="q3" value="B"> B) Providing editable source files</label><br> <label><input type="radio" name="q3" value="C"> C) Using a CC BY licence</label><br> <label><input type="radio" name="q3" value="D"> D) Publishing in an open repository</label></p>
+
+<!-- Hyperlinked controls -->
+
+<p><a href="#" id="submit-link">✔️ Submit</a>  </p>
+
+</form>
+
+<!-- Result area -->
+
+::: {#result style="font-weight: bold; margin-top: 1em;"}
+:::
+
+```{=html}
+<script>
+document.getElementById("submit-link").addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const form = document.getElementById("quiz");
+  const correct = form.querySelectorAll('input[data-correct="true"]:checked').length;
+  const total = 3;
+
+  const result = document.getElementById("result");
+  const indexLink = document.getElementById("index-link");
+  const backLink = document.getElementById("back-link");
+
+  let message = `You scored ${correct}/${total}. `;
+
+  if (correct >= 2) {
+    message += "Well done!";
+    indexLink.style.display = "block";
+    backLink.style.display = "none";
+  } else {
+    message += "You might want to go back and look at sections of the Introduction to OERs unit.";
+    indexLink.style.display = "none";
+    backLink.style.display = "block";
+  }
+
+  result.textContent = message;
+});
+</script>
+```
+
+::: {#index-link style="display: none; margin-top: 1.5em; text-align: center;"}
+<a href="/index.html"> <img src="images/clipboard-3722003544.png" alt="Return to programme home page" width="50"/> </a>
+:::
+
+::: {#back-link style="display: none; margin-top: 1.5em; text-align: center;"}
+<a href="/Introduction to OERs/Intro-Learning Outcomes.html"> <img src="images/clipboard-372805318.png" alt="Return to the beginning of the unit" width="50"/> </a>
+:::

@@ -1,0 +1,84 @@
+---
+title: "Licensing Your OER"
+format: html
+---
+
+## Overview of Creative Commons licences
+
+{{< meta glossary.CC >}} licences have suffixes which perform different functions. All Creative Commons licences start CC followed by:
+
+::: {.callout-note collapse="true"}
+## Attribution (BY)
+
+All Creative Commons licences require "BY" or "0" after CC and for "CC BY" before any other suffixes. "BY" makes attribution to the creator a prerequisite of any permissible reuse, whereas "0" waives that requirement.
+:::
+
+::: {.callout-note collapse="true"}
+## No-attribution necessary (0)
+
+All Creative Commons licences require "BY" or "0" after CC. "0" waives the requirement for attribution and puts limited restrictions on reuse under a public domain dedication.
+:::
+
+::: {.callout-note collapse="true"}
+## Non-Commercial (NC)
+
+Reuse for purposes primarily intended for commercial advantage or monetary compensation is not permitted.
+:::
+
+::: {.callout-note collapse="true"}
+## No-Derivatives (ND)
+
+The material may not be shared if it has been adapted, modified, or transformed in any way.
+:::
+
+::: {.callout-note collapse="true"}
+## Share Alike (SA)
+
+Requires derivative or remixed outputs to use same licence.
+:::
+
+Creators who have cleared rights with any third-parties may apply a more permissive CC BY licence or a more restricted CC BY-NC-ND-SA licence. However, be warned that the suffixes may not cover all scenarios or may in combination be too restrictive and surplus to requirement, undermining reuse, remixing, and sharing in certain contexts. When in doubt, revisit the CC licence deeds or seek guidance, https://creativecommons.org/share-your-work/cclicenses/
+
+## Software licensing
+
+For code and software, licences such as {{< meta glossary.MIT >}} and {{< meta glossary.GPL >}} are more appropriate than Creative Commons licences.
+
+## Third party rights
+
+Creators must ensure all reused content is:
+
+-   openly licensed;
+-   used with permission; or
+-   covered by exceptions.
+
+A copyright log helps track permissions. Here’s an example…
+
+```{=html}
+<style>
+table {
+  border-collapse: collapse;
+}
+
+table td, table th {
+  border: 1px solid #000;
+}
+</style>
+```
+
++-----------------------+-----------------+-----------------------------+----------------------------+----------------------+----------------------------------------------------------------+
+| Third party material  | Location in OER | Covered by an open license? | Is an exception available? | Obtained permission? | Notes                                                          |
+|                       |                 |                             |                            |                      |                                                                |
+| (Author, source, URL) |                 |                             |                            |                      | (Copyright owner contact info, details of permission granted). |
++-----------------------+-----------------+-----------------------------+----------------------------+----------------------+----------------------------------------------------------------+
+|                       |                 |                             |                            |                      |                                                                |
++-----------------------+-----------------+-----------------------------+----------------------------+----------------------+----------------------------------------------------------------+
+|                       |                 |                             |                            |                      |                                                                |
++-----------------------+-----------------+-----------------------------+----------------------------+----------------------+----------------------------------------------------------------+
+|                       |                 |                             |                            |                      |                                                                |
++-----------------------+-----------------+-----------------------------+----------------------------+----------------------+----------------------------------------------------------------+
+|                       |                 |                             |                            |                      |                                                                |
++-----------------------+-----------------+-----------------------------+----------------------------+----------------------+----------------------------------------------------------------+
+|                       |                 |                             |                            |                      |                                                                |
++-----------------------+-----------------+-----------------------------+----------------------------+----------------------+----------------------------------------------------------------+
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Sharing%20&%20Versioning.html)

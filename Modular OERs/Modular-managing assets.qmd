@@ -1,0 +1,53 @@
+---
+title: "Managing lists using R"
+format: html
+---
+
+It is possible to use R code to build and reuse lists. This can be done at the file level, or a file in the directory can be linked to. However, it is best to use YAML when using Quarto as discussed on the previous page.
+
+### Example
+
+First, create a list of reusable hyperlinks:
+
+```{r}
+
+# create a blank list to add to
+indexed_links<-list()
+
+# add a hyperlink and the term you would like to attach it to
+indexed_links$`research services` <- list("https://library.soton.ac.uk/research")
+
+# add more as you go along
+indexed_links$`research training`<-list( "https://library.soton.ac.uk/research/training")
+
+indexed_links$`publishing services`<-list("https://library.soton.ac.uk/research/publishing")
+
+```
+
+To prevent users from seeing your working in the OER itself use `echo = FALSE`.
+
+Now you have an indexed list of hyperlinks and you can reuse them throughout the document and modify the resource quickly as a result.
+
+A demonstration of how links can be reused from the list is given below; the code and its output are reproduced.
+
+```{r, eval=FALSE}
+
+[`click here to find out more about publishing`{=html}](`r indexed_links$"publishing services"[[1]]`)
+
+```
+
+::: callout
+[`click here to find out more about publishing`{=html}](%60r%20indexed_links$%22publishing%20services%22%5B%5B1%5D%5D%60)
+:::
+
+::: {.callout-note collapse="true"}
+# R coding tips
+
+-   Use back tick and r \`r to run the script and insert the hyperlink rather than printing the location.
+
+-   Note, using {=html} is not necessary unless you want to maintain the font style.
+:::
+
+We can apply these same principles to managing a list of organisation specific terms or structures so that the resource can be rapidly adapted to diverse contexts. However, caution should be used when working with Quarto.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Building%20tests.html)

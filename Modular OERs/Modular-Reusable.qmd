@@ -1,0 +1,18 @@
+---
+title: "Making Quarto OERs Reusable"
+format: html
+---
+
+Best practice includes:
+
+-   modular design using child documents;
+
+-   separating long code into chunks of script;
+
+-   maintaining a clear folder structure;
+
+-   providing editable image assets;
+
+-   avoiding vendor lock-in by using open tools.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Referencing.html)

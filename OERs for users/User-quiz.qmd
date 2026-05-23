@@ -1,0 +1,67 @@
+---
+title: "Quiz"
+format: html
+---
+
+<form id="quiz">
+
+<!-- Q1 -->
+
+<p><strong>1) When using OERs in a UK university, which of the following is typically required to meet attribution standards?</strong><br> <label><input type="radio" name="q1" value="A" data-correct="true"> A) Title, creator, source, and licence</label><br> <label><input type="radio" name="q1" value="B"> B) The title of the work</label><br> <label><input type="radio" name="q1" value="C"> C) Only the creator's name and date</label><br> <label><input type="radio" name="q1" value="D"> D) Only the licence type</label></p>
+
+<!-- Q2 -->
+
+<p><strong>2) In which of the following activities would a non-profit organisation be able to reuse a work licensed CC BY-NC?</strong><br> <label><input type="radio" name="q2" value="A"> A) No, this would breach the terms of the licence</label><br> <label><input type="radio" name="q2" value="B"> B) Yes, they can resell it because they're non-profit</label><br> <label><input type="radio" name="q2" value="C" data-correct="true"> C) Yes, for internal training purposes</label><br> <label><input type="radio" name="q2" value="D"> D) Yes, they can use it for training purposes, including training for hire</label></p>
+
+<!-- Q3 -->
+
+<p><strong>3) Are OERs more trustworthy than commercial resources?</strong><br> <label><input type="radio" name="q3" value="A"> A) No, they are generally of a lower quality</label><br> <label><input type="radio" name="q3" value="B" data-correct="true"> B) No, you should apply critical tests of quality, accuracy, and completeness to all resources</label><br> <label><input type="radio" name="q3" value="C"> C) Yes, they are generally created by more trustworthy people</label><br> <label><input type="radio" name="q3" value="D"> D) Yes, they're public and so they are continuously updated</label></p>
+
+<!-- Hyperlinked controls -->
+
+<p><a href="#" id="submit-link">✔️ Submit</a>  </p>
+
+</form>
+
+<!-- Result area -->
+
+::: {#result style="font-weight: bold; margin-top: 1em;"}
+:::
+
+```{=html}
+<script>
+document.getElementById("submit-link").addEventListener("click", function (e) {
+  e.preventDefault();
+
+  const form = document.getElementById("quiz");
+  const correct = form.querySelectorAll('input[data-correct="true"]:checked').length;
+  const total = 3;
+
+  const result = document.getElementById("result");
+  const indexLink = document.getElementById("index-link");
+  const backLink = document.getElementById("back-link");
+
+  let message = `You scored ${correct}/${total}. `;
+
+  if (correct >= 2) {
+    message += "Well done!";
+    indexLink.style.display = "block";
+    backLink.style.display = "none";
+  } else {
+    message += "You might want to go back and look at sections of the Introduction to OERs unit.";
+    indexLink.style.display = "none";
+    backLink.style.display = "block";
+  }
+
+  result.textContent = message;
+});
+</script>
+```
+
+::: {#index-link style="display: none; margin-top: 1.5em; text-align: center;"}
+<a href="/index.html"> <img src="images/clipboard-3722003544.png" alt="Return to programme home page" width="50"/> </a>
+:::
+
+::: {#back-link style="display: none; margin-top: 1.5em; text-align: center;"}
+<a href="/OERs for users/User-learning outcomes.html"> <img src="images/clipboard-372805318.png" alt="Return to the beginning of the unit" width="50"/> </a>
+:::

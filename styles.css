@@ -1,0 +1,62 @@
+/* css styles */
+
+@font-face {
+  font-family: 'Inter';
+  src: url('fonts/Inter-VariableFont_opsz,wght.woff2') format('woff2');
+  font-weight: 100 900;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* Ensure body and headings use Inter */
+html, body {
+  font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, 'Noto Sans', 'Liberation Sans', sans-serif;
+}
+
+/* Document title at the top of the page */
+.title {
+  color: #495961 !important;    
+  font-weight: 700;
+}
+
+h1, .h1 {
+  color: #495961 !important;  
+  font-weight: 700;
+}
+
+h2, .h2 {
+  color: #758d9a !important;    
+    font-weight: 600;
+}
+
+h3, .h3 {
+  color: #758d9a !important;
+    font-weight: 600;
+}
+
+h4, h5, h6 {
+  color: #9eb1bd !important;
+    font-weight: 300;
+}
+
+.uos-Amethyst {
+  color: #d500a0;             /* uos-Amethyst */
+  text-decoration: underline dotted;
+  cursor: help;
+  font-weight: bold;
+}
+
+.callout .callout-header {
+  background-color: #83dbd2 !important;
+  color: white; /* optional */
+}
+
+.callout {
+  border-left: 4px solid #0c838c !important;
+}
+
+
+.callout .callout-icon {
+  display: none !important;
+}
+

@@ -1,0 +1,14 @@
+---
+title: "OERs for Users"
+format: html
+---
+
+### Learning outcomes
+
+Learners will be able to:
+
+-   Locate OERs using reputable repositories and tools.
+
+-   Correctly interpret open licences.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20users/User-Discovering%20OERs.html)

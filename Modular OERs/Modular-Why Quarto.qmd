@@ -1,0 +1,20 @@
+---
+title: "Why Use Quarto for OERs?"
+format: html
+---
+
+Quarto is an open-source publishing system designed to support **reproducible, transparent, and flexible** educational materials. For OER creators, it offers several key advantages:
+
+- A clear separation between **source files** and **published outputs**, supporting good scholarly and open research practices;
+- The ability to **control what learners see**, for example hiding code (`echo: false`) while preserving reproducibility;  
+- Support for **multiple output formats** (HTML, PDF, EPUB), enabling reuse across contexts and platforms ("extensibility");
+- Integration of **text, code, and data** within a single, portable document.
+
+Many different tools and programming languages can be used to create OERs. In this unit, {{< meta glossary.Quarto >}} is demonstrated using {{< meta glossary.R >}} and **RStudio** because they are widely used in research and teaching, align well with open research principles, and provide both a **visual editor** and a **source editor** to support different levels of experience.
+
+Quarto enables you to combine narrative content, executable code, and data within a single workflow, making it easier to create materials that are not only engaging but also **reproducible and adaptable** by others.
+
+This OER assumes a basic familiarity with Quarto and executable code. To get started or deepen your understanding, see: <https://quarto.org>.
+
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Quarto basics.html)

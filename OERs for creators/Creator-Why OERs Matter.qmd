@@ -1,0 +1,38 @@
+---
+title: "Why OERs Matter for Creators"
+format: html
+---
+
+Creating OERs supports wider educational equity and sustainable teaching practices. For creators, the benefits include:
+
+::: {.callout-note collapse="true"}
+## Increased visibility and impact
+
+Openly shared materials can reach audiences far beyond a single institution.
+:::
+
+::: {.callout-note collapse="true"}
+## Reduced duplication of effort
+
+Others can build on your work instead of re-creating learning materials from scratch.
+:::
+
+::: {.callout-note collapse="true"}
+## Community effort
+
+Others building upon your work can help to refine it and improve upon it with as little or as much effort as the original creator wants to contribute.
+:::
+
+::: {.callout-note collapse="true"}
+## Professional recognition
+
+Licensing and attribution ensure proper credit.
+:::
+
+::: {.callout-note collapse="true"}
+## Innovative pedagogy
+
+Multimedia, local context, learner centred design, and translation become easier within open frameworks.
+:::
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Effective%20OERs.html)

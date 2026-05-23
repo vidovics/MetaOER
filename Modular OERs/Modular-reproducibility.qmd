@@ -1,0 +1,26 @@
+---
+title: "Reproducibility"
+format: html
+---
+
+Computational reproducibility ensures others can:
+
+-   rerun code;
+
+-   regenerate equations, tables, and figures;
+
+-   practically learn;
+
+-   repurpose and build upon an OER;
+
+-   test claims.
+
+To support reproducibility:
+
+-   include datasets or provide download links;
+
+-   avoid hard coded paths;
+
+-   document dependencies.
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Reusable.html)

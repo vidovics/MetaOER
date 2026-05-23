@@ -1,0 +1,41 @@
+indexed_links:
+  research_services: '<a href="https://library.soton.ac.uk/research">research services</a>'
+  research_training: '<a href="https://library.soton.ac.uk/research/training">research training</a>'
+  publishing_services: '<a href="https://library.soton.ac.uk/research/publishing">publishing services</a>'
+
+indexed_terms:
+  organisation: 'University of Southampton'
+  research_office: 'RIS'
+  CPD_support: 'CHEP'
+  open_research_support_leads: 'the Library'
+
+glossary:
+  fiveRs: '<abbr class="uos-Amethyst" title="Revise, Remix, Reuse, Retain, Redistribute.">5Rs</abbr>'
+
+  FAIR: '<abbr class="uos-Amethyst" title="Findable, Accessible, Interoperable, Reusable.">FAIR principles</abbr>'
+
+  R: '<abbr class="uos-Amethyst" title="R is a programming language widely used for data analysis, statistical computing, and reproducible research. R can effectively implement the Quarto publishing system for OERs.">R</abbr>'
+
+  Quarto: '<abbr class="uos-Amethyst" title="Quarto is an open-source publishing system that integrates text, code, and outputs to create reproducible documents in multiple formats.">Quarto</abbr>'
+
+  CC: '<abbr class="uos-Amethyst" title="A set of licences that let creators decide how others may reuse their work. These licences may allow others to reuse, share, and adapt the work, provided they credit the creator.">Creative Commons (CC)</abbr>'
+
+  Pedagogy: '<abbr class="uos-Amethyst" title="Pedagogy refers to the methods and principles of teaching. In OERs, it describes teaching and learning practices made possible or enhanced by the open permissions that enable adaptation, remixing, and innovative, learner‑centred design.">pedagogy</abbr>'
+
+  MERLOT: '<abbr class="uos-Amethyst" title="Multimedia Educational Resources for Learning and Online Teaching.">MERLOT</abbr>'
+
+  OAIPMH: '<abbr class="uos-Amethyst" title="A protocol which facilitates harvesting metadata from distributed repositories.">OAI‑PMH</abbr>'
+
+  Sylla: '<abbr class="uos-Amethyst" title="A company committed to enabling unrestricted access to educational resource, with strong institutional support.">Sylla</abbr>'
+
+  docx: '<abbr class="uos-Amethyst" title=".docx is not open source, but Microsoft has made it publicly available as an open standard for free reuse.">.docx</abbr>'
+
+  md: '<abbr class="uos-Amethyst" title="Markdown (.md) is fully open, plain-text, extensible, and convertible to formats such as HTML, EPUB, DOCX, and PDF.">.md</abbr>'
+
+  qmd: '<abbr class="uos-Amethyst" title="Quarto Markdown (.qmd) extends Markdown with publishing features and is the format used to create this OER.">.qmd</abbr>'
+
+  html: '<abbr class="uos-Amethyst" title="HTML is an open standard for the web. It can be created and published without vendor restrictions.">.html</abbr>'
+
+  MIT: '<abbr class="uos-Amethyst" title="The MIT License is highly permissive, allowing reuse, modification, and distribution with attribution.">MIT</abbr>'
+
+  GPL: '<abbr class="uos-Amethyst" title="GNU GPL is a copyleft license ensuring derivative works remain open.">GNU GPL</abbr>'

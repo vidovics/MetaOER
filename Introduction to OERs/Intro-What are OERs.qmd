@@ -1,0 +1,63 @@
+---
+title: "What are OERs?"
+format: html
+---
+
+Open Educational Resources (OERs) are teaching, learning, and educational materials made freely available online for use, adaptation, and redistribution. There are a wide range of resources that can be described as educational resources, from worksheets and presentation slide decks to complete standalone modules and textbooks. Open Educational Resources, as the name implies, are openly licensed, freely available online and modifiable [@RN67272].
+
+### OER and Global Goals
+#### UN SDGs
+
+Open Educational Resources are part of a global movement to make education more accessible, equitable, and sustainable. This work aligns with the United Nations Sustainable Development Goals (SDGs), particularly SDGs 4, 5, 10, and 17.
+
+::: {.callout-note collapse="true"}
+## SDG 4
+
+Quality Education - Ensure inclusive and equitable quality education and promote lifelong learning opportunities for all. OER directly supports this by removing cost barriers, enabling adaptation for diverse learners, and promoting lifelong learning.
+:::
+
+::: {.callout-note collapse="true"}
+## SDG 5
+
+Gender Equality - Achieve gender equality and empower all women and girls. OER helps by providing equitable access to learning materials globally, reducing structural barriers.
+:::
+
+::: {.callout-note collapse="true"}
+## SDG 10
+
+Reduced Inequalities - Reduce inequality within and among countries. Open resources allow learners from different regions and backgrounds to access high-quality education without financial constraints.
+:::
+
+::: {.callout-note collapse="true"}
+## SDG 17
+
+Partnerships for the Goals - Strengthen the means of implementation and revitalize the global partnership for sustainable development. OER thrives on collaboration—sharing resources across institutions and countries builds strong educational partnerships.
+:::
+
+[@RN68103]
+
+#### UNESCO’s Role
+
+::: {.callout-note collapse="true"}
+## UNESCO OER definition
+
+“Open Educational Resources (OER) are learning, teaching and research materials in any format and medium that reside in the public domain or are under copyright that have been released under an open license, that permit no-cost access, re-use, re-purpose, adaptation and redistribution by others.” [@RN68111]
+:::
+
+As a specialised UN agency, UNESCO leads the global OER movement through its 2019 Recommendation on OER, which calls for:
+
+-   Capacity building;
+
+-   Supportive policy;
+
+-   Inclusive access;
+
+-   Sustainability;
+
+-   International cooperation.
+
+[@RN68111]
+
+By embedding OER into our teaching and learning practices, we contribute to these global priorities and demonstrate leadership in open education.
+
+[![](images/clipboard-1574813119.png){fig-align="center" width="50"}](Intro-open%20vs%20free.html)

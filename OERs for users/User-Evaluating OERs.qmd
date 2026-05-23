@@ -1,0 +1,50 @@
+---
+title: "Evaluating OERs"
+format: html
+---
+
+### The basics
+
+Treat this process in the same way for evaluating any teaching and learning resource. When selecting an OER, consider:
+
+-   Quality
+
+-   Accuracy
+
+-   Clarity
+
+-   Are there any biases?
+
+### Licensing
+
+-   Does the licence permit your intended use?
+
+#### CC licence suffixes and your rights
+
+{{< meta glossary.CC >}} licences have suffixes which perform different functions. All Creative Commons licnences start CC followed by:
+
+::: {.callout-note collapse="true"}
+## Attribution (BY)
+
+All Creative Commons licences require "BY" or "0" after CC and before any other suffixes. "BY" makes attribution to the creator a prerequisite of any permissible reuse, whereas "0" waives that requirement.
+:::
+
+::: {.callout-note collapse="true"}
+## Non-Commercial (NC)
+
+Reuse for purposes primarily intended for commercial advantage or monetary compensation is not permitted.
+:::
+
+::: {.callout-note collapse="true"}
+## No-Derivatives (ND)
+
+The material may not be shared if it has been adapted, modified, or transformed in any way.
+:::
+
+::: {.callout-note collapse="true"}
+## Share Alike (SA)
+
+Requires derivative or remixed outputs to use same licence.
+:::
+
+[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20users/User-Citing%20and%20Attribution.html)
