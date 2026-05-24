@@ -13,4 +13,4 @@ By the end of this unit, learners will be able to:
 
 -   Identify common barriers and misconceptions surrounding OERs.
 
-[![](images/clipboard-1574813119.png){fig-align="center" width="50"}](intro-What%20are%20OERs.html)
+[![](images/clipboard-1574813119.png){fig-align="center" width="50"}](Intro-What%20are%20OERs.html)
