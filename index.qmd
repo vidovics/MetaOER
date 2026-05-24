@@ -7,7 +7,7 @@ format: html
 
 |  |  |  |  |
 |------------------|------------------|------------------|------------------|
-| [![](images/clipboard-972878262.png)](Introduction%20to%20OERs/intro-Learning%20Outcomes.html) | [![](images/clipboard-2783689849.png)](OERs%20for%20users/User-learning%20outcomes.html) | [![](images/clipboard-3520176154.png)](OERs%20for%20creators/Creator-learning%20outcomes.html) | [![](images/clipboard-560624670.png)](Modular%20OERs/Modular-learning%20outcomes.html) |
+| [![](images/clipboard-972878262.png)](Introduction%20to%20OERs/Intro-Learning%20Outcomes.html) | [![](images/clipboard-2783689849.png)](OERs%20for%20users/User-learning%20outcomes.html) | [![](images/clipboard-3520176154.png)](OERs%20for%20creators/Creator-learning%20outcomes.html) | [![](images/clipboard-560624670.png)](Modular%20OERs/Modular-learning%20outcomes.html) |
 | Introduction to OERs | OERs for Users | OERs for Creators | Advanced: Modular OERs Using R and Quarto |
 
 ### Audience
