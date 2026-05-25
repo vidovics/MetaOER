@@ -19,7 +19,7 @@ next:
 
 <!-- Q2 -->
 
-<p><strong>2) In which of the following activities would a non-profit organisation be able to reuse a work licensed CC BY-NC?</strong><br> <label><input type="radio" name="q2" value="A"> A) No, this would breach the terms of the licence</label><br> <label><input type="radio" name="q2" value="B"> B) Yes, they can resell it because they're non-profit</label><br> <label><input type="radio" name="q2" value="C" data-correct="true"> C) Yes, for internal training purposes</label><br> <label><input type="radio" name="q2" value="D"> D) Yes, they can use it for training purposes, including training for hire</label></p>
+<p><strong>2) A non-profit organisation wants to reuse a work licensed under CC BY-NC. Which of the following uses would comply with the licence?</strong><br> <label><input type="radio" name="q2" value="A"> A) Selling the work as part of a fundraising activity</label><br> <label><input type="radio" name="q2" value="B" data-correct="true"> B) Using the work in free internal training</label><br> <label><input type="radio" name="q2" value="C"> C) Using the work in fee-based external training</label><br> <label><input type="radio" name="q2" value="D"> D) All of the above</label></p>
 
 <!-- Q3 -->
 
