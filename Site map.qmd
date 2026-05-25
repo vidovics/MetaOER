@@ -1,0 +1,58 @@
+---
+title: "Site map"
+format: html
+---
+
+## Site Map
+
+-   [Open Educational Resources: Accessible, transparent, and reusable learning objects](../index.html)
+
+-   [About](../about.html)
+
+-   [Sitemap](../Site%20map.html)
+
+-   **Introduction to OERs**
+
+    -   [Introduction to OERs](../Introduction%20to%20OERs/Intro-Learning%20Outcomes.html)
+    -   [What are OERs?](../Introduction%20to%20OERs/Intro-What%20are%20OERs.html)
+    -   [Open vs. Free](../Introduction%20to%20OERs/Intro-open%20vs%20free.html)
+    -   [Why OERs Matter](../Introduction%20to%20OERs/Intro-why%20OERs%20matter.html)
+    -   [A Brief History of OERs](../Introduction%20to%20OERs/Intro-brief%20history.html)
+    -   [Challenges and Misconceptions](../Introduction%20to%20OERs/Intro-myths.html)
+    -   [Check Your Understanding](../Introduction%20to%20OERs/Intro-quiz.html)
+
+-   **OERs for Users**
+
+    -   [OERs for Users](../OERs%20for%20users/User-learning%20outcomes.html)
+    -   [Discovering OERs](../OERs%20for%20users/User-Discovering%20OERs.html)
+    -   [Evaluating OERs](../OERs%20for%20users/User-Evaluating%20OERs.html)
+    -   [Citing and Attribution](../OERs%20for%20users/User-Citing%20and%20Attribution.html)
+    -   [Quiz](../OERs%20for%20users/User-quiz.html)
+
+-   **OERs for Creators**
+
+    -   [OERs for Creators](../OERs%20for%20creators/Creator-learning%20outcomes.html)
+    -   [Why OERs Matter for Creators](../OERs%20for%20creators/Creator-Why%20OERs%20Matter.html)
+    -   [The Qualities of Effective OERs](../OERs%20for%20creators/Creator-Effective%20OERs.html)
+    -   [Why licensing is not enough](../OERs%20for%20creators/Creator-Licensing.html)
+    -   [Designing OERs for Reuse](../OERs%20for%20creators/Creator-Design.html)
+    -   [Licensing Your OER](../OERs%20for%20creators/Creator-Copyright.html)
+    -   [Sharing & Versioning](../OERs%20for%20creators/Creator-Sharing%20&%20Versioning.html)
+    -   [Adapting, Revising, and Remixing](../OERs%20for%20creators/Creator-Adapting,%20Revising,%20and%20Remixing.html)
+    -   [Ethics of Reuse](../OERs%20for%20creators/Creator-Ethics%20of%20Reuse.html)
+    -   [Quiz](../OERs%20for%20creators/Creator-Quiz.html)
+
+-   **Advanced: Modular OERs**
+
+    -   [Modular OER Method](../Modular%20OERs/Modular-learning%20outcomes.html)
+    -   [Why Use Quarto for OERs?](../Modular%20OERs/Modular-Why%20Quarto.html)
+    -   [Quarto Fundamentals](../Modular%20OERs/Modular-Quarto%20basics.html)
+    -   [Other Useful Features](../Modular%20OERs/Modular-Useful%20features.html)
+    -   [Reproducibility](../Modular%20OERs/Modular-reproducibility.html)
+    -   [Making Quarto OERs Reusable](../Modular%20OERs/Modular-Reusable.html)
+    -   [Referencing](../Modular%20OERs/Modular-Referencing.html)
+    -   [Indexes](../Modular%20OERs/Modular-Indexes.html)
+    -   [Managing lists using R](../Modular%20OERs/Modular-managing%20assets.html)
+    -   [Building Tests](../Modular%20OERs/Modular-Building%20tests.html)
+    -   [Sandpit](../Modular%20OERs/Modular-Sandpit.html)
+    -   [Publishing Quarto OERs](../Modular%20OERs/Modular-Publishing.html)
