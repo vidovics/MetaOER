@@ -3,12 +3,10 @@ title: "Open Educational Resources: Accessible, transparent, and reusable learni
 format: html
 ---
 
-
-
 |  |  |  |  |
 |------------------|------------------|------------------|------------------|
-| [![](images/clipboard-972878262.png)](Introduction%20to%20OERs/Intro-Learning%20Outcomes.html) | [![](images/clipboard-2783689849.png)](OERs%20for%20users/User-learning%20outcomes.html) | [![](images/clipboard-3520176154.png)](OERs%20for%20creators/Creator-learning%20outcomes.html) | [![](images/clipboard-560624670.png)](Modular%20OERs/Modular-learning%20outcomes.html) |
-| Introduction to OERs | OERs for Users | OERs for Creators | Advanced: Modular OERs Using R and Quarto |
+| [![](images/clipboard-972878262.png){fig-alt="Go to: Introduction to OERs unit" fig-align="center" width="300"}](Introduction%20to%20OERs/Intro-Learning%20Outcomes.html) | [![](images/clipboard-2783689849.png){fig-alt="Go to: OERs for Users unit" fig-align="center" width="300"}](OERs%20for%20users/User-learning%20outcomes.html) | [![](images/clipboard-3520176154.png){fig-alt="Go to: OERs for Creators unit" fig-align="center" width="300"}](OERs%20for%20creators/Creator-learning%20outcomes.html) | [![](images/clipboard-560624670.png){fig-alt="Go to: Advanced Modular OERs unit" fig-align="center" width="300"}](Modular%20OERs/Modular-learning%20outcomes.html) |
+| [Introduction to OERs](Introduction%20to%20OERs/Intro-Learning%20Outcomes.html) | [OERs for Users](OERs%20for%20users/User-learning%20outcomes.html) | [OERs for Creators](OERs%20for%20creators/Creator-learning%20outcomes.html) | [Advanced: Modular OERs Using R and Quarto](Modular%20OERs/Modular-learning%20outcomes.html) |
 
 ### Audience
 
