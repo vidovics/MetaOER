@@ -1,6 +1,14 @@
 ---
 title: "Sharing & Versioning"
 format: html
+
+previous:
+  href: "Creator-Copyright.html"
+  text: "Licensing Your OER"
+
+next:
+  href: "Creator-Adapting, Revising, and Remixing.html"
+  text: "Adapting, Revising, and Remixing"
 ---
 
 To ensure your OER lives beyond your immediate project:
@@ -31,4 +39,18 @@ Tools like GitHub facilitate:
 -   change logs;
 -   issues and contributions.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Adapting,%20Revising,%20and%20Remixing.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Creator-Adapting,%20Revising,%20and%20Remixing.html" fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Adapting,%20Revising,%20and%20Remixing.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

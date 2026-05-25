@@ -1,6 +1,14 @@
 ---
 title: "Designing OERs for Reuse"
 format: html
+
+previous:
+  href: "Creator-Licensing.html"
+  text: "Why licensing is not enough"
+
+next:
+  href: "Creator-Copyright.html"
+  text: "Licensing Your OER"
 ---
 
 To enable meaningful reuse:
@@ -44,4 +52,18 @@ Where possible, facilitate future users to swap out:
 -   signposting/web links;
 -   context specific examples and case studies.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Copyright.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Creator-Copyright.html" fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Copyright.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

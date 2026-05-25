@@ -1,6 +1,14 @@
 ---
 title: "Evaluating OERs"
 format: html
+
+previous:
+  href: "User-Discovering OERs.qmd"
+  text: "Discovering OERs"
+
+next:
+  href: "User-Citing and Attribution.qmd"
+  text: "Citing and Attribution"
 ---
 
 ### The basics
@@ -47,4 +55,18 @@ The material may not be shared if it has been adapted, modified, or transformed 
 Requires derivative or remixed outputs to use same licence.
 :::
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20users/User-Citing%20and%20Attribution.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: User-Citing%20and%20Attribution.html" fig-align="center" width="50"}](/OERs%20for%20users/User-Citing%20and%20Attribution.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

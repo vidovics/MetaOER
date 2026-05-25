@@ -1,6 +1,14 @@
 ---
 title: "Citing and Attribution"
 format: html
+
+previous:
+  href: "User-Evaluating OERs.qmd"
+  text: "Evaluating OERs"
+
+next:
+  href: "User-quiz.qmd"
+  text: "Quiz"
 ---
 
 For citing and properly attributing OERs you are referencing, use the TASL method:
@@ -12,4 +20,18 @@ For citing and properly attributing OERs you are referencing, use the TASL metho
 
 Example: “Title of Resource” by Author (Year), Source URL, licensed under CC BY 4.0.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20users/User-quiz.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: User-quiz.html" fig-align="center" width="50"}](/OERs%20for%20users/User-quiz.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

@@ -1,6 +1,14 @@
 ---
 title: "Indexes"
 format: html
+
+previous:
+  href: "Modular-Referencing.html"
+  text: "Referencing"
+
+next:
+  href: "Modular-managing assets.html"
+  text: "Managing lists using R"
 ---
 
 Managing other indexes in the same way as a BibTeX file can be very helpful. Using indexed lists makes OERs easier to **adapt, maintain, and version** across different contexts. Some use cases include:
@@ -97,4 +105,18 @@ See {{< meta indexed_links.research_services >}} for more support.
 See {{< meta indexed_links.research_services >}} for more support.
 :::
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-managing%20assets.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Modular-managing%20assets.html" fig-align="center" width="50"}](/Modular%20OERs/Modular-managing%20assets.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

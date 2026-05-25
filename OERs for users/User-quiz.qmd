@@ -1,6 +1,14 @@
 ---
 title: "Quiz"
 format: html
+
+previous:
+  href: "User-Citing and Attribution.qmd"
+  text: "Citing and Attribution"
+
+next:
+  href: "../OERs for creators/Creator-learning outcomes.qmd"
+  text: "OERs for Creators"
 ---
 
 <form id="quiz">
@@ -64,4 +72,18 @@ document.getElementById("submit-link").addEventListener("click", function (e) {
 
 ::: {#back-link style="display: none; margin-top: 1.5em; text-align: center;"}
 <a href="/OERs for users/User-learning outcomes.html"> <img src="images/clipboard-372805318.png" alt="Return to the beginning of the unit" width="50"/> </a>
+:::
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
 :::

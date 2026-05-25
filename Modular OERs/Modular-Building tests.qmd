@@ -1,6 +1,14 @@
 ---
 title: "Building Tests"
 format: html
+
+previous:
+  href: "Modular-managing assets.html"
+  text: "Managing lists using R"
+
+next:
+  href: "Modular-Sandpit.html"
+  text: "Sandpit"
 ---
 
 ## End-of-unit quizzes
@@ -157,4 +165,18 @@ document.getElementById("submit-link").addEventListener("click", function (e) {
 </script>
 ```
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Sandpit.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Modular-Sandpit.html" fig-align="center" width="50"}](/Modular%20OERs/Modular-Sandpit.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

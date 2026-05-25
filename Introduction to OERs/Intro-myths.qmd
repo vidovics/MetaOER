@@ -1,6 +1,13 @@
 ---
 title: "Challenges and Misconceptions"
 format: html
+previous:
+  href: "Intro-brief history.qmd"
+  text: "A Brief History of OERs"
+
+next:
+  href: "Intro-quiz.qmd"
+  text: "Check Your Understanding"
 ---
 
 ### Myths
@@ -24,9 +31,9 @@ OER quality varies, just like commercial resources. Many are peer-reviewed, inst
 
 Cost savings are important, but OERs also enable:
 
-- Pedagogical innovation (e.g. open {{< meta glossary.Pedagogy >}});
-- Adaptability and localisation;
-- Equity and inclusion.
+-   Pedagogical innovation (e.g. open {{< meta glossary.Pedagogy >}});
+-   Adaptability and localisation;
+-   Equity and inclusion.
 
 They can improve student outcomes when used thoughtfully.
 
@@ -40,7 +47,6 @@ Initial discovery and adaptation can take time, but over time, OERs can reduce w
 
 **It’s an upfront investment with long-term benefits.**
 :::
-
 
 ### Licensing confusion
 
@@ -70,4 +76,17 @@ Many OERs are not indexed well in search engines or stored in institutional repo
 -   Smart Servier Medical Art has 3000 free medical images https://smart.servier.com/
 :::
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](Intro-quiz.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Intro-quiz.html" fig-align="center" width="50"}](Intro-quiz.html)
+
+---------------
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

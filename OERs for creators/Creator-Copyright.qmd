@@ -1,6 +1,14 @@
 ---
 title: "Licensing Your OER"
 format: html
+
+previous:
+  href: "Creator-Design.html"
+  text: "Designing OERs for Reuse"
+
+next:
+  href: "Creator-Sharing & Versioning.html"
+  text: "Sharing & Versioning"
 ---
 
 ## Overview of Creative Commons licences
@@ -81,4 +89,18 @@ table td, table th {
 |                       |                 |                             |                            |                      |                                                                |
 +-----------------------+-----------------+-----------------------------+----------------------------+----------------------+----------------------------------------------------------------+
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Sharing%20&%20Versioning.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Creator-Sharing%20&%20Versioning.html" fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Sharing%20&%20Versioning.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

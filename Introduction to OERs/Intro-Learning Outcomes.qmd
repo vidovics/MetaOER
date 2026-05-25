@@ -1,6 +1,14 @@
 ---
 title: "Introduction to OERs"
 format: html
+
+previous:
+  href: "../index.qmd"
+  text: "Home"
+
+next:
+  href: "Intro-What are OERs.qmd"
+  text: "What are OERs"
 ---
 
 ### Unit Learning Outcomes
@@ -13,4 +21,17 @@ By the end of this unit, learners will be able to:
 
 -   Identify common barriers and misconceptions surrounding OERs.
 
-[![](images/clipboard-1574813119.png){fig-align="center" width="50"}](Intro-What%20are%20OERs.html)
+[![](images/clipboard-1574813119.png){fig-alt="Go to next page:Intro-What%20are%20OERs.html" fig-align="center" width="50"}](Intro-What%20are%20OERs.html)
+
+----------------------
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

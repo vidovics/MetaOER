@@ -1,6 +1,14 @@
 ---
 title: "Referencing"
 format: html
+
+previous:
+  href: "Modular-Reusable.html"
+  text: "Making Quarto OERs Reusable"
+
+next:
+  href: "Modular-Indexes.html"
+  text: "Indexes"
 ---
 
 One of the ways you can meet the principle of reproducibility and reusability is by managing your references in a directory. Most reference management software, including open source solutions, provide BibTeX export. Quarto can natively handle BibTex across a project.
@@ -101,4 +109,18 @@ nocite: |
 ---
 ```
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Indexes.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Modular-Indexes.html" fig-align="center" width="50"}](/Modular%20OERs/Modular-Indexes.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

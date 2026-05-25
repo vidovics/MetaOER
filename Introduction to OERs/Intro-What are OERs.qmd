@@ -1,11 +1,19 @@
 ---
 title: "What are OERs?"
 format: html
+previous:
+  href: "Intro-Learning Outcomes.qmd"
+  text: "Introduction to OERs"
+
+next:
+  href: "Intro-open vs free.qmd"
+  text: "Open vs. Free"
 ---
 
 Open Educational Resources (OERs) are teaching, learning, and educational materials made freely available online for use, adaptation, and redistribution. There are a wide range of resources that can be described as educational resources, from worksheets and presentation slide decks to complete standalone modules and textbooks. Open Educational Resources, as the name implies, are openly licensed, freely available online and modifiable [@RN67272].
 
 ### OER and Global Goals
+
 #### UN SDGs
 
 Open Educational Resources are part of a global movement to make education more accessible, equitable, and sustainable. This work aligns with the United Nations Sustainable Development Goals (SDGs), particularly SDGs 4, 5, 10, and 17.
@@ -60,4 +68,17 @@ As a specialised UN agency, UNESCO leads the global OER movement through its 201
 
 By embedding OER into our teaching and learning practices, we contribute to these global priorities and demonstrate leadership in open education.
 
-[![](images/clipboard-1574813119.png){fig-align="center" width="50"}](Intro-open%20vs%20free.html)
+[![](images/clipboard-1574813119.png){fig-alt="Go to next page: Intro-open%20vs%20free.html" fig-align="center" width="50"}](Intro-open%20vs%20free.html)
+
+--------------------
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

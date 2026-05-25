@@ -1,6 +1,14 @@
 ---
 title: "Publishing Quarto OERs"
 format: html
+
+previous:
+  href: "Modular-Sandpit.html"
+  text: "Sandpit"
+
+next:
+  href: "../index.html"
+  text: "Home"
 ---
 
 Options include:
@@ -13,4 +21,18 @@ Options include:
 
 -   Packaging OERs for more advanced reuse.
 
-[![](images/clipboard-3722003544.png){fig-align="center" width="50"}](/index.html)
+[![](images/clipboard-3722003544.png){fig-alt="Go to next page: ../index.html" fig-align="center" width="50"}](/index.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

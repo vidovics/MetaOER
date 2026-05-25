@@ -1,6 +1,14 @@
 ---
 title: "The Qualities of Effective OERs"
 format: html
+
+previous:
+  href: "Creator-Why OERs Matter.html"
+  text: "Why OERs Matter for Creators"
+
+next:
+  href: "Creator-Licensing.html"
+  text: "Why licensing is not enough"
 ---
 
 ## The 5Rs
@@ -65,4 +73,18 @@ Clear licensing and editable source files.
 
 These principles are best practice and ensure that a learning object is fully open, adaptable, and retrievable.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Licensing.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Creator-Licensing.html" fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Licensing.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

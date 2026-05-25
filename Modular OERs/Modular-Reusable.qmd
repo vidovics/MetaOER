@@ -1,6 +1,14 @@
 ---
 title: "Making Quarto OERs Reusable"
 format: html
+
+previous:
+  href: "Modular-reproducibility.html"
+  text: "Reproducibility"
+
+next:
+  href: "Modular-Referencing.html"
+  text: "Referencing"
 ---
 
 Best practice includes:
@@ -15,4 +23,18 @@ Best practice includes:
 
 -   avoiding vendor lock-in by using open tools.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Referencing.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Modular-Referencing.html" fig-align="center" width="50"}](/Modular%20OERs/Modular-Referencing.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

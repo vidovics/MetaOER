@@ -1,6 +1,15 @@
 ---
 title: "Sandpit"
 format: html
+
+previous:
+  href: "Modular-Building tests.html"
+  text: "Building Tests"
+
+next:
+  href: "Modular-Publishing.html"
+  text: "Publishing Quarto OERs"
+
 ---
 
 ### Exercise
@@ -71,4 +80,18 @@ function runCode() {
 </script>
 ```
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Publishing.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Modular-Publishing.html" fig-align="center" width="50"}](/Modular%20OERs/Modular-Publishing.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

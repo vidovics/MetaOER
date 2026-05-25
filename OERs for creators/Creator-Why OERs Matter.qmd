@@ -1,6 +1,14 @@
 ---
 title: "Why OERs Matter for Creators"
 format: html
+
+previous:
+  href: "Creator-learning outcomes.html"
+  text: "OERs for Creators"
+
+next:
+  href: "Creator-Effective OERs.html"
+  text: "The Qualities of Effective OERs"
 ---
 
 Creating OERs supports wider educational equity and sustainable teaching practices. For creators, the benefits include:
@@ -35,4 +43,18 @@ Licensing and attribution ensure proper credit.
 Multimedia, local context, learner centred design, and translation become easier within open frameworks.
 :::
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Effective%20OERs.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Creator-Effective%20OERs.html" fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Effective%20OERs.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

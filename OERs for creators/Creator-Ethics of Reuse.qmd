@@ -1,6 +1,14 @@
 ---
 title: "Ethics of Reuse"
 format: html
+
+previous:
+  href: "Creator-Adapting, Revising, and Remixing.html"
+  text: "Adapting, Revising, and Remixing"
+
+next:
+  href: "Creator-Quiz.html"
+  text: "Quiz"
 ---
 
 Responsible adaptation means:
@@ -12,7 +20,21 @@ Responsible adaptation means:
 
 For further reading please see:
 
-\ @RN70201. Available at: https://pressbooks.pub/oenmodify/;\
-\ @RN70202. Available at: https://pressbooks.pub/authoropen/.
+ @RN70201. Available at: https://pressbooks.pub/oenmodify/;\
+ @RN70202. Available at: https://pressbooks.pub/authoropen/.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Quiz.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Creator-Quiz.html" fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Quiz.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

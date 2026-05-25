@@ -1,6 +1,14 @@
 ---
 title: "Adapting, Revising, and Remixing"
 format: html
+
+previous:
+  href: "Creator-Sharing & Versioning.html"
+  text: "Sharing & Versioning"
+
+next:
+  href: "Creator-Ethics of Reuse.html"
+  text: "Ethics of Reuse"
 ---
 
 Adaptation examples include:
@@ -14,4 +22,18 @@ When remixed with other OERs, check licence compatibility — particularly CC BY
 
 Maintain attribution and any required notices of change.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Ethics%20of%20Reuse.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Creator-Ethics%20of%20Reuse.html" fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Ethics%20of%20Reuse.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

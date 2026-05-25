@@ -1,6 +1,14 @@
 ---
 title: "Other Useful Features"
 format: html
+
+previous:
+  href: "Modular-Quarto basics.html"
+  text: "Quarto Fundamentals"
+
+next:
+  href: "Modular-reproducibility.html"
+  text: "Reproducibility"
 ---
 
 Quarto has other useful features, or can integrate functions from other packages. In this OER we have used callouts and abbreviations to keep pages clean and to highlight elements or give additional information.
@@ -80,4 +88,18 @@ R/Quarto
 <abbr class="uos-Amethyst"
       title="R is a programming language for data analysis. Using RStudio together with the Quarto publishing system is recommended for creating reproducible and extensible OERs."> R/Quarto </abbr>
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-reproducibility.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Modular-reproducibility.html" fig-align="center" width="50"}](/Modular%20OERs/Modular-reproducibility.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

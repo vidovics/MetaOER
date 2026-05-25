@@ -1,6 +1,14 @@
 ---
 title: "Reproducibility"
 format: html
+
+previous:
+  href: "Modular-Useful features.html"
+  text: "Other Useful Features"
+
+next:
+  href: "Modular-Reusable.html"
+  text: "Making Quarto OERs Reusable"
 ---
 
 Computational reproducibility ensures others can:
@@ -23,4 +31,18 @@ To support reproducibility:
 
 -   document dependencies.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Reusable.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Modular-Reusable.html" fig-align="center" width="50"}](/Modular%20OERs/Modular-Reusable.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

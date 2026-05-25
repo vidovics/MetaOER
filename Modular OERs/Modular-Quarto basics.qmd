@@ -1,6 +1,14 @@
 ---
 title: "Quarto Fundamentals"
 format: html
+
+previous:
+  href: "Modular-Why Quarto.html"
+  text: "Why Use Quarto for OERs?"
+
+next:
+  href: "Modular-Useful features.html"
+  text: "Other Useful Features"
 ---
 
 A {{< meta glossary.qmd >}} file must include a YAML header with metadata. This ensures the output is correctly structured and key details about the publication are machine readable. There are tools, such as the Quarto visual editor in RStudio which can help produce your YAML.
@@ -79,4 +87,18 @@ We strongly suggest using the RStudio Visual editor for figures and tables. This
 
 For inline calculations or the production of figures and graphs, simply load the relevant packages and run the code as usual in text. You can use the backticks \` and controls used above to determine if you show the learner the underpinning code, or the output.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Useful features.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Modular-Useful features.html" fig-align="center" width="50"}](/Modular%20OERs/Modular-Useful features.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

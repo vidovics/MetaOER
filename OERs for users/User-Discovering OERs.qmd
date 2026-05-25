@@ -1,6 +1,14 @@
 ---
 title: "Discovering OERs"
 format: html
+
+previous:
+  href: "User-learning outcomes.qmd"
+  text: "OERs for Users"
+
+next:
+  href: "User-Evaluating OERs.qmd"
+  text: "Evaluating OERs"
 ---
 
 Common places to locate OERs include:
@@ -21,4 +29,18 @@ Common places to locate OERs include:
 
 Search tools often include filters for licence type, accessibility, and media format.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20users/User-Evaluating%20OERs.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: User-Evaluating%20OERs.html" fig-align="center" width="50"}](/OERs%20for%20users/User-Evaluating%20OERs.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

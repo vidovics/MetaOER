@@ -1,6 +1,14 @@
 ---
 title: "Modular OER Method"
 format: html
+
+previous:
+  href: "../index.html"
+  text: "Home"
+
+next:
+  href: "Modular-Why Quarto.html"
+  text: "Why Use Quarto for OERs?"
 ---
 
 ### Learning outcomes
@@ -17,4 +25,18 @@ By the end of this unit, learners will be able to:
 
 -   Publish modular, remixable OERs online.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Why%20Quarto.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Modular-Why%20Quarto.html" fig-align="center" width="50"}](/Modular%20OERs/Modular-Why%20Quarto.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

@@ -2,6 +2,13 @@
 title: "Check Your Understanding"
 format: html
 toc: false
+previous:
+  href: "Intro-myths.qmd"
+  text: "Challenges and Misconceptions"
+
+next:
+  href: "../OERs for users/User-learning outcomes.qmd"
+  text: "OERs for Users"
 ---
 
 ## Quiz
@@ -67,4 +74,19 @@ document.getElementById("submit-link").addEventListener("click", function (e) {
 
 ::: {#back-link style="display: none; margin-top: 1.5em; text-align: center;"}
 <a href="/Introduction to OERs/Intro-Learning Outcomes.html"> <img src="images/clipboard-372805318.png" alt="Return to the beginning of the unit" width="50"/> </a>
+:::
+
+
+
+----------------------------------
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
 :::

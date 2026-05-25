@@ -1,6 +1,14 @@
 ---
 title: "OERs for Creators"
 format: html
+
+previous:
+  href: "../index.html"
+  text: "Home"
+
+next:
+  href: "Creator-Why OERs Matter.html"
+  text: "Why OERs Matter for Creators"
 ---
 
 ### Learning outcomes
@@ -15,4 +23,18 @@ By the end of this unit, learners will be able to:
 
 -   Structure and share OERs for maximum longevity and adaptability.
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Why%20OERs%20Matter.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Creator-Why%20OERs%20Matter.html" fig-align="center" width="50"}](/OERs%20for%20creators/Creator-Why%20OERs%20Matter.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

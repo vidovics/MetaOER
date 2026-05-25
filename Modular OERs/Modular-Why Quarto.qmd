@@ -1,6 +1,15 @@
 ---
 title: "Why Use Quarto for OERs?"
 format: html
+
+
+previous:
+  href: "Modular-learning outcomes.html"
+  text: "Modular OER Method"
+
+next:
+  href: "Modular-Quarto basics.html"
+  text: "Quarto Fundamentals"
 ---
 
 Quarto is an open-source publishing system designed to support **reproducible, transparent, and flexible** educational materials. For OER creators, it offers several key advantages:
@@ -17,4 +26,18 @@ Quarto enables you to combine narrative content, executable code, and data withi
 This OER assumes a basic familiarity with Quarto and executable code. To get started or deepen your understanding, see: <https://quarto.org>.
 
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](/Modular%20OERs/Modular-Quarto basics.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Modular-Quarto basics.html" fig-align="center" width="50"}](/Modular%20OERs/Modular-Quarto basics.html)
+
+------------------------------------------------------------------------
+
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::

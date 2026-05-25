@@ -1,8 +1,14 @@
 ---
 title: "Open vs. Free"
 format: html
----
+previous:
+  href: "Intro-What are OERs.qmd"
+  text: "What are OERs"
 
+next:
+  href: "Intro-why OERs matter.qmd"
+  text: "Why OERs Matter"
+---
 
 A common misconception is that “free” materials are equivalent to “open” ones.
 
@@ -18,4 +24,17 @@ A common misconception is that “free” materials are equivalent to “open”
 In essence: A resource is only an OER if its licence explicitly permits adaptation.
 :::
 
-[![](images/clipboard-2765196364.png){fig-align="center" width="50"}](Intro-why%20OERs%20matter.html)
+[![](images/clipboard-2765196364.png){fig-alt="Go to next page: Intro-why%20OERs%20matter.html" fig-align="center" width="50"}](Intro-why%20OERs%20matter.html)
+
+-------------------------
+::: nav-footer
+```{=html}
+<a href="{{< meta previous.href >}}" aria-label="Go to previous page: {{< meta previous.text >}}">
+  <span aria-hidden="true">«</span> {{< meta previous.text >}}
+</a>
+
+<a href="{{< meta next.href >}}" aria-label="Go to next page: {{< meta next.text >}}">
+  {{< meta next.text >}} <span aria-hidden="true">»</span>
+</a>
+```
+:::
