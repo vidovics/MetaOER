@@ -1,6 +1,6 @@
 project:
   type: website
-
+  
 
 metadata-files:
   - indexes.yml
@@ -14,7 +14,20 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
+        text: About
+      - href: Site map.qmd
+        text: Site map
+      - text: Units
+        menu:
+        - href: Introduction to OERs/Intro-Learning Outcomes.qmd
+          text: Introduction to OERs
+        - href: OERs for users/User-learning outcomes.qmd
+          text: OERs for Users
+        - href: OERs for creators/Creator-learning outcomes.qmd
+          text: OERs for Creators
+        - href: Modular OERs/Modular-learning outcomes.qmd
+          text: "Advanced: Modular OERs"
 
 format:
   html:
