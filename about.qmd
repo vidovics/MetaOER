@@ -26,6 +26,8 @@ Sands, P. and Vidovic, S. (2026) *Open Educational Resources: Accessible, transp
 
 This programme has been created to collect together Open Educational Resources (OERs) which aim to educate potential users and creators of OERs about what they are and how to find them, use them, reuse them, and create them. The programme is modular and can be used to meet the user's needs. Of course, this is an OER, so it may be remixed and reused to suit your needs.
 
+This website and its contents is shared under CC BY 4.0, copyright the authors, unless it is otherwise explicitly stated.
+
 ### Acknowledgements
 
 Thank you to the following supporters of this project for their contributions:
