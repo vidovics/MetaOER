@@ -65,7 +65,7 @@ output <- c(
 )
 
 # ---------------------------
-# Top-Level Pages
+# Top-Level Pages (FIXED)
 # ---------------------------
 
 top_items <- menu_items[!sapply(menu_items, function(x) !is.null(x$menu))]
@@ -83,16 +83,15 @@ for (item in top_items) {
     html <- to_html(qmd_file)
     
     output <- c(output,
-                paste0("- [", meta$title, "](../", html, ")")
+      paste0("- [", meta$title, "](", html, ")")
     )
   }
 }
 
-# Blank line before units
 output <- c(output, "")
 
 # ---------------------------
-# Unit sections (as nested list)
+# Unit sections
 # ---------------------------
 
 for (i in seq_along(entry_qmd)) {
@@ -100,14 +99,12 @@ for (i in seq_along(entry_qmd)) {
   section_name <- section_names[i]
   current_file <- entry_qmd[i]
   
-  # Unit as top-level list item
   output <- c(output,
-              paste0("- **", section_name, "**")
+    paste0("- **", section_name, "**")
   )
   
   visited <- c()
   
-  # controlled recursion
   for (step in 1:100) {
     
     if (!file.exists(current_file)) break
@@ -120,15 +117,13 @@ for (i in seq_along(entry_qmd)) {
     
     if (!(html_path %in% visited)) {
       output <- c(output,
-                  paste0("  - [", title, "](../", html_path, ")")
+        paste0("  - [", title, "](", html_path, ")")
       )
       visited <- c(visited, html_path)
     }
     
-    # Stop if no next
     if (is.null(meta[["next"]]) || is.null(meta[["next"]][["href"]])) break
     
-    # Resolve next path
     next_href <- meta[["next"]][["href"]]
     next_href <- gsub("\\.html$", ".qmd", next_href)
     next_href <- clean_path(next_href)
@@ -139,19 +134,13 @@ for (i in seq_along(entry_qmd)) {
     
     next_html <- to_html(next_file)
     
-    # STOP: if next is another section entry
     if (next_html %in% entry_html && next_html != to_html(entry_qmd[i])) break
-    
-    # STOP: if leaving folder
     if (dirname(next_file) != dirname(current_file)) break
-    
-    # STOP: avoid loops
     if (next_html %in% visited) break
     
     current_file <- next_file
   }
   
-  # spacing between sections
   output <- c(output, "")
 }
 
