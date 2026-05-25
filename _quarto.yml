@@ -9,6 +9,12 @@ metadata-files:
 bibliography: References.bib
 
 website:
+
+  page-footer:
+    left: |
+      Except where otherwise noted, content is licensed under 
+      [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/).
+
   title: "OER"
   navbar:
     left:
