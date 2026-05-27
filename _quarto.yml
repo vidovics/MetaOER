@@ -35,6 +35,11 @@ website:
         - href: Modular OERs/Modular-learning outcomes.qmd
           text: "Advanced: Modular OERs"
 
+    right:
+        - href: index.qmd
+          text: "![](/images/UoS_Brand.png)"
+          aria-label: "University of Southampton"  
+
 format:
   html:
     theme:
