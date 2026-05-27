@@ -1,5 +1,11 @@
 /* css styles */
 
+.navbar .nav-link img {
+  max-height: 50px;
+  width: auto;
+  display: inline-block;
+}
+
 @font-face {
   font-family: 'Inter';
   src: url('fonts/Inter-VariableFont_opsz,wght.woff2') format('woff2');
